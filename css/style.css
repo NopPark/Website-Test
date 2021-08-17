@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+.text-style{
+	font-family: 'Comic Neue', cursive;
+}
+
+.l1{
+	font-weight: 600;
+	font-size: 30px;
+	color:#9e0000;
+}
+.l2{
+	background: #9e0000;
+	color:#fff;
+	border-radius: 10px;
+	padding: 5px;
+	font-weight: 600;
+	font-size: 13px;
+	position: relative;
+}
+
+.logo input{
+
+	border:1px #9e0000 solid;
+	border-radius: 20px;
+	padding: 10px;
+	background:#fff;
+	width: 400px;
+	margin-left: 100px;
+}
+
+.navbar{
+	background: #fff;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.17);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.17);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.17);
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	top:0px;
+	left:0px;
+	z-index: 999;
+}
+
+.right-menu{
+	position: absolute;
+	right: 40px;
+	top:20px;
+}
+.right-menu a{
+	padding: 10px;
+	color:#9e0000;
+	text-decoration: none;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+.right-menu a:hover{
+	color:#fff;
+	background: #9e0000;
+}
+
+.BG{
+	background-image: url(../img/bg1.jpg);
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	z-index: 998;
+	background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top:50px;
+    left:0px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.17);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.17);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.17);
+}
+
+.BG .content{
+	margin-top: 300px;
+}
+
+.h1{
+	font-weight: 600;
+	font-size: 50px;
+	color:#fff;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.31);
+	margin-left: 20px;
+}
+
+.h2{
+	color:#fff;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.31);
+	margin-left: 20px;
+	font-size: 25px;
+	margin-top: -30px;
+}
+
+.category{
+	width: 830px;
+	margin:auto;
+}
+
+.category .data{
+	width: 250px;
+	margin:10px;
+	border:1px #ddd solid;
+	overflow: hidden;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.19);
+	-moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.19);
+	box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.19);
+	display: inline-grid;
+}
+
+.contents{
+	width: 85%;
+	margin:auto;
+	border-top: 1px #ddd dashed;
+	margin-top: 50px;
+	padding-top: 20px;
+}
